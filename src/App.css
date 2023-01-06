@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Use 
+font-family: 'Mukta', sans-serif;
+font-family: 'Playfair Display', serif;
+ */
+
+ * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ html{
+  box-sizing: border-box;
+ }
+
+body{
+  font-family: 'Mukta', sans-serif;
+  background-color: #f2f2f2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3, h4{
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+/* Styling the navbar */
+header {
+  background-color: black;
   color: white;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0 2px 4px #bebebe;
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+  max-width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+nav h1 {
+  font-size: 3.2rem;
+  padding: 15px 0;
+  border-bottom: solid whitesmoke 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+nav h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 10px 0;
+}
+
+nav ul li a{
+  display: inline-block;
+  position: relative;
+  font-size: 1.7rem;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 10%;
+  background-color: whitesmoke;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+/* Making the navbar responsive to viewport width */
+@media screen and (max-width: 540px) {
+  nav h1{
+    font-size: 2.3rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  nav ul{
+    gap: 3.5vw;
+  }
+
+  nav ul li a {
+    font-size: 5.5vw;
+  }
+  
+}
+
+@media screen and (max-width: 390px){
+  nav h1 .remove-on-resize {
+    display: none;
+  }
+
+  nav ul{
+    gap: 3vw;
+  }
+
+  nav ul li a {
+    font-size: 6vw;
   }
 }
+
