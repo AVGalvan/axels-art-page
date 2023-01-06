@@ -5,6 +5,20 @@ font-family: 'Mukta', sans-serif;
 font-family: 'Playfair Display', serif;
  */
 
+ * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ html{
+  box-sizing: border-box;
+ }
+
 body{
   font-family: 'Mukta', sans-serif;
   background-color: #f2f2f2;
@@ -19,4 +33,94 @@ h1, h2, h3, h4{
   text-transform: uppercase;
 }
 
+
+/* Styling the navbar */
+header {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0 2px 4px #bebebe;
+}
+
+nav {
+  max-width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+nav h1 {
+  font-size: 3.2rem;
+  padding: 15px 0;
+  border-bottom: solid whitesmoke 1px;
+}
+
+nav h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 10px 0;
+}
+
+nav ul li a{
+  display: inline-block;
+  position: relative;
+  font-size: 1.7rem;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 10%;
+  background-color: whitesmoke;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+/* Making the navbar responsive to viewport width */
+@media screen and (max-width: 540px) {
+  nav h1{
+    font-size: 2.3rem;
+  }
+
+  nav ul{
+    gap: 3.5vw;
+  }
+
+  nav ul li a {
+    font-size: 5.5vw;
+  }
+  
+}
+
+@media screen and (max-width: 390px){
+  nav h1 .remove-on-resize {
+    display: none;
+  }
+
+  nav ul{
+    gap: 3vw;
+  }
+
+  nav ul li a {
+    font-size: 6vw;
+  }
+}
 
