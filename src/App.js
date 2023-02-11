@@ -7,7 +7,7 @@ import {
 
 //components
 import Home from './components/Home'
-import Pieces from './components/Pieces'
+import PieceGallery from './components/PieceGallery'
 import About from './components/About'
 import Blog from './components/Blog'
 import RootLayout from './layouts/RootLayout'
@@ -17,7 +17,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
           <Route index element={<Home />}/>
-          <Route path='pieces' element={<Pieces />} />
+          <Route path='piecegallery' element={<PieceGallery />} />
           <Route path='blog' element={<Blog />}/>
           <Route path='about' element={<About />}/>
     </Route>

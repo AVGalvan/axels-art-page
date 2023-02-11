@@ -193,6 +193,77 @@ div .home p{
   
 }
 
+
+/* Styling the piecegallery page */
+
+  .gallery-container{
+    width: 95%;
+    margin: auto;
+  }
+
+
+  .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .gallery a ion-icon {
+    font-size: 1.8rem;
+    color: #1d1010;
+    position: relative;
+    z-index: 100;
+  }
+
+
+
+
+
+
+/* .pieces {
+  width: 100%;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-display img{
+  height: 500px;
+}
+
+.pieces button{
+  border: solid 1px black;
+}
+
+#prev{
+  justify-self: start;
+}
+
+#next{
+  justify-self: end;
+} */
+
+
+
+
 /*Styling the footer */
 
 footer {
