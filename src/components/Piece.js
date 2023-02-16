@@ -29,8 +29,8 @@ export default function Piece (props){
       isOpen={modalIsOpen}>
         <button onClick={closeModal}>x</button>
         <img src={props.src} alt={props.alt}/> 
-        <h3>{props.title}</h3>
-        <p>{props.date} {props.medium}</p>
+        <h3>"{props.title}" | {props.medium} {props.date} </h3>
+        <p>{props.description}</p>
       </Modal>
       </Suspense>
     </>

@@ -49,7 +49,7 @@ export const finishedPieces = [
   {
     title: "Containers",
     date: "2019",
-    medium: "charcoal",
+    medium: "graphite",
     description: "",
     alt: "",
     src: "images/artwork-images/finishedPieces/containers-min.jpeg"

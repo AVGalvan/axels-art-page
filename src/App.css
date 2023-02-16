@@ -263,12 +263,13 @@ div .home p{
 
 
   .Modal img{
+    margin-top: 35px;
     max-height: 90vh;
     max-width: 100%;
   }
 
   .Modal h3{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 
 
@@ -306,7 +307,7 @@ div .home p{
 
   @media screen and (orientation:landscape) {
     .Modal img{
-      margin-top: 60px;
+      margin-top: 30px;
     }
   }
 
