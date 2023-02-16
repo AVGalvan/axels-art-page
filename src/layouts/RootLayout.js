@@ -1,3 +1,4 @@
+import React, {Suspense} from "react"
 import { Outlet } from "react-router-dom"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
@@ -10,7 +11,9 @@ export default function RootLayout(){
       </ header>
 
       <main>
-        <Outlet />
+        <Suspense>
+          <Outlet />
+        </Suspense>
       </main>
 
         <Footer/>

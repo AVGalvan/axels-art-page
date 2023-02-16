@@ -1,7 +1,7 @@
-import { useState } from "react";
+import React, {useState, Suspense } from "react";
 import Modal from "react-modal";
 import { finishedPieces } from "./Helper";
-import Piece from "./Piece";
+const Piece = React.lazy(() => import("./Piece"))
 
 
 
@@ -13,14 +13,16 @@ export default function PieceGallery () {
   const [counter, setCounter] = useState(0);
   let pieces = finishedPieces.map((piece, index)=> {
     return(
-      <Piece
-       title={piece.title}
-       date={piece.date}
-       medium={piece.medium}
-       description={piece.description}
-       alt={piece.alt}
-       src={piece.src}
-       /> 
+      <Suspense>
+        <Piece
+        title={piece.title}
+        date={piece.date}
+        medium={piece.medium}
+        description={piece.description}
+        alt={piece.alt}
+        src={piece.src}
+        /> 
+      </Suspense>
     )
   })
 
