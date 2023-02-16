@@ -57,6 +57,7 @@ header {
   top: 0px;
   box-shadow: 0 2px 4px #bebebe;
   margin-bottom: 40px;
+  width: 100%;
 }
 
 nav {
@@ -242,7 +243,7 @@ div .home p{
   .Modal button{
     font-size: 2rem;
     border: solid 1px #1d1010;
-    background-color: #eee7d5c4;
+    background-color: #eee7d564;
     border-radius: 30%;
     position: absolute;
     height: 40px;
@@ -258,7 +259,6 @@ div .home p{
 
   .Modal {
     text-align: center;
-    margin-top: 0px;
   }
 
 
@@ -275,8 +275,23 @@ div .home p{
 
   @media screen and (max-width: 900px){
     .gallery-container{
-      width: 90%;
+      max-width: 100%;
       max-height: 95%;
+    }
+
+    .gallery{
+     grid-template-columns: 1fr 1fr;
+     gap: 25px
+    }
+
+    .gallery img{
+      height: 400px;
+    }
+  }
+
+  @media screen and (max-width: 550px){
+    .gallery-container{
+      max-width: fit-content;
     }
 
     .gallery{
@@ -285,7 +300,13 @@ div .home p{
     }
 
     .gallery img{
-      height: 600px;
+      height: 400px;
+    }
+  }
+
+  @media screen and (orientation:landscape) {
+    .Modal img{
+      margin-top: 60px;
     }
   }
 
@@ -296,6 +317,7 @@ div .home p{
 
 footer {
   background-color: #1d1010;
+  width: 100%;
 }
 
 footer ul{
