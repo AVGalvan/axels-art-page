@@ -208,16 +208,15 @@ div .home p{
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 10px;
-    margin-top: -20px;
   }
 
   .gallery-selection button {
-    width: 200px;
-    font-size: 1.2rem;
+    width: 300px;
+    font-size: 1.5rem;
     background-color: #361e1e;
     color: whitesmoke;
-    padding: 5px;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
   }
   
   .gallery-selection button:hover{
@@ -303,8 +302,16 @@ div .home p{
     .gallery-container{
       max-width: 100%;
       max-height: 95%;
+      margin-top: -15px;
     }
 
+    .gallery-selection button{
+      width: 200px;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+ 
     .gallery{
      grid-template-columns: 1fr 1fr;
      gap: 25px
@@ -317,12 +324,18 @@ div .home p{
 
   @media screen and (max-width: 550px){
     .gallery-container{
+      margin-top: -25px;
       max-width: fit-content;
+    }
+
+    .gallery-selection{
+      margin-bottom: 5px;
     }
 
     .gallery{
      grid-template-columns: 1fr;
      gap: 25px
+
     }
 
     .gallery img{
