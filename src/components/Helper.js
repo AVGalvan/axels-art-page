@@ -136,3 +136,121 @@ export const finishedPieces = [
   },
 
 ]
+
+export const sketches = [
+  {
+    title: "Bust Sketch",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a plastic bust",
+    src: "images/artwork-images/sketches/bust-sketch-min.jpeg"
+  },
+  {
+    title: "Corvid Killer ",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a bird in a hat with a gun",
+    src: "images/artwork-images/sketches/corvid-killer-min.jpeg"
+  },
+  {
+    title: "Cow Skull",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a cow skull",
+    src: "images/artwork-images/sketches/cow-skull-min.jpeg"
+  },
+  {
+    title: "Dead Sheriff",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a sheriff badge ",
+    src: "images/artwork-images/sketches/dead-sheriff-min.jpeg"
+  },
+  {
+    title: "Denizen Sketch",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a sharply dressed rabbit",
+    src: "images/artwork-images/sketches/denizen-sketch-min.jpeg"
+  },
+  {
+    title: "Curly Portrait",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a man with curly hair",
+    src: "images/artwork-images/sketches/face-curly-min.jpeg"
+  },
+  {
+    title: "Jacket Guy",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a guy in a cool jackey",
+    src: "images/artwork-images/sketches/face-jacket-min.jpeg"
+  },
+  {
+    title: "Mug",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a guy who kind of looks like a jerk",
+    src: "images/artwork-images/sketches/face-jerk-min.jpeg"
+  },
+  {
+    title: "Mole Woman",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a woman with a mole",
+    src: "images/artwork-images/sketches/face-mole-min.jpeg"
+  },
+  {
+    title: "Russian Hat",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a man in a russian hat",
+    src: "images/artwork-images/sketches/face-russian-hat-min.jpeg"
+  },
+  {
+    title: "Squint",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a man squinting",
+    src: "images/artwork-images/sketches/face-squint-min.jpeg"
+  },
+  {
+    title: "Wet Face",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a woman whose head is drenched in water",
+    src: "images/artwork-images/sketches/face-wet-min.jpeg"
+  },
+  {
+    title: "Palm Lines",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of power lines crossing over a palm tree",
+    src: "images/artwork-images/sketches/palm-view-min.jpeg"
+  },
+  {
+    title: "Ranger",
+    date: "",
+    medium: "",
+    description: "",
+    alt: "sketch of a man on horseback",
+    src: "images/artwork-images/sketches/ranger-sketch-min.jpeg"
+  },
+
+  
+
+]

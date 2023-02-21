@@ -2,7 +2,6 @@ import { Suspense, useState } from "react";
 import Modal from "react-modal";
 
 
-
 export default function Piece (props){
   const [modalIsOpen, setIsOpen] = useState(false);
 
@@ -15,7 +14,6 @@ export default function Piece (props){
   }
 
 
-  console.log(props);
   return(
     <>
     <div className="piece grow" onClick={openModal}>
@@ -29,7 +27,7 @@ export default function Piece (props){
       isOpen={modalIsOpen}>
         <button onClick={closeModal}>x</button>
         <img src={props.src} alt={props.alt}/> 
-        <h3>"{props.title}" | {props.medium} {props.date} </h3>
+        <h3>"{props.title}"  {props.medium} {props.date} </h3>
         <p>{props.description}</p>
       </Modal>
       </Suspense>

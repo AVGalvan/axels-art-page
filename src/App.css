@@ -53,7 +53,7 @@ h1, h2, h3, h4{
 /* Styling the navbar */
 header {
   background-color: #1d1010;
-  color: white;
+  color: whitesmoke;
   top: 0px;
   box-shadow: 0 2px 4px #bebebe;
   margin-bottom: 40px;
@@ -76,7 +76,7 @@ nav h1 a {
   text-decoration: none;
 }
 
-nav ul{
+ ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -201,7 +201,32 @@ div .home p{
     width: 95%;
     margin: auto;
   }
+  
+  .gallery-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: -20px;
+  }
 
+  .gallery-selection button {
+    width: 200px;
+    font-size: 1.2rem;
+    background-color: #361e1e;
+    color: whitesmoke;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-selection button:hover{
+    background: #1e1010;
+  }
+
+  .gallery-selection button:active{
+    transform: translateY(3px);
+  }
 
   .gallery{
     display: grid;
