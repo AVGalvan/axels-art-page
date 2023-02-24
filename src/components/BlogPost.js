@@ -1,6 +1,4 @@
-
-
-export default function blogPost (props) {
+export default function BlogPost (props) {
 
   //returns an array of img elements using info passed down from Blog component
   let pictures = props.pictures.map((image)=>{

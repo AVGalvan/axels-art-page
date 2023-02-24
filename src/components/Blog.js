@@ -1,4 +1,4 @@
-import React, {Suspense, useState} from "react";
+import React, {Suspense} from "react";
 import { blogPostData } from "./Helper";
 const BlogPost = React.lazy(() => import("./BlogPost"))
 
