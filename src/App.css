@@ -407,6 +407,42 @@ div .home .hero{
   
 }
 
+/* styling the blog */
+.blog-post {
+  background-color: #eae5d9;
+  border: solid 2px #717070;
+  border-radius: 5px;
+  overflow: scroll;
+  max-height: 200px;
+  width: 80%;
+  margin: 0px auto 40px;
+  padding: 20px
+}
+
+.blog-post h3 {
+  margin-bottom: 3px;
+}
+.blog-post h4 {
+  margin-bottom: 15px;
+}
+
+.blog-post p{
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.blog-post-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-post img {
+  max-width: 500px;
+  height: auto;
+}
 
 
 
