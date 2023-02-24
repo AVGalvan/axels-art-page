@@ -250,7 +250,4 @@ export const sketches = [
     alt: "sketch of a man on horseback",
     src: "images/artwork-images/sketches/ranger-sketch-min.jpeg"
   },
-
-  
-
 ]

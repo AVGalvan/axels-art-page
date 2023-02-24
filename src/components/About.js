@@ -3,7 +3,7 @@ export default function About () {
       <div className="about">
         <div className="about-intro">
           <h2 className="larger">About Me</h2>
-          <img id="artist-picture" alt="the artist holding a boogie board with dunes in the background" src="images/website-images/axel-dunes.jpg"/>
+          <img id="artist-picture" alt="the artist holding a boogie board with dunes in the background" src="images/website-images/axel-dunes-portrait.jpeg"/>
         </div>
 
         <p className="width-80">
