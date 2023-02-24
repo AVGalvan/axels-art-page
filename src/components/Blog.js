@@ -1,10 +1,29 @@
+import React, {Suspense, useState} from "react";
+import { blogPostData } from "./Helper";
+const BlogPost = React.lazy(() => import("./BlogPost"))
+
 export default function Blog () {
+
+
+// Each object in blogposts array is made into a blog post by passing 
+// the Hepler component data into the BlogPost component and then mapped into
+// an array of elements ready for rendering
+  let blogPosts = blogPostData.map((post)=>{
+    return(
+      <Suspense>
+        <BlogPost
+        title={post.title}
+        text={post.text}
+        pictures={post.pictures}
+        />
+      </Suspense>
+    )
+  })
+
+
   return(
     <div className="blog">
-      <h2>The Blog of Accountability</h2>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      {blogPosts}
     </div>
   )
 }
