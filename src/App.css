@@ -433,6 +433,8 @@ div .home .hero{
 }
 
 .hook{
+  font-weight: 500;
+  line-height: 1.2;
   font-style: italic;
   margin-bottom: 5px;
 }

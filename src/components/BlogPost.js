@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 let hiddenStyle = {
   overflow: "hidden",
-  maxHeight: "200px",
+  maxHeight: "250px",
 };
 
 let openStyle = {

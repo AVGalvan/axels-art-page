@@ -254,30 +254,11 @@ export const sketches = [
 
 export const blogPostData = [
   {
-    title: "First Blog Post",
+    title: "Laying it all out",
     date: "02/23/2023",
-    hook: "Intro blog post",
-    text: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
+    hook: "A discussion about what the blog page might look like after it is more populated",
+    text: `This is to be the first of what will likely be many blog posts detailing whatever it is I want to jot down for posterity. Some of the things that one may expect later on: posts recalling art events, a look into whatever curriculum I am working on, goal setting, major events of relevance to my interests in art, and anything else that I feel would be useful to look back on later. This is largely a way to keep myself engaged and accountable to myself, but it could also be useful as a sort of timeline recounting my progress. For the tone of this page, I want to avoid anything too formal without being cavalier about form; drawing is fun and a creative outlet, however, I am balancing work and play to improve, so a smidgen of sobriety is likely in order. The first “real” post will likely be about the exercises and courses I have been working on for most of February; fortunately, we started off pretty early in the year, so we will be able to measure my progress by months as the year rolls on. Thank you for your time, I hope you found this peek into my existence amusing at the very least.`,
     pictures: [
-      {
-        src:"images/website-images/axel-dunes.jpeg",
-        alt:"image of the the artist holding a boogie board among dunes"
-      }
-    ]
-  },
-  {
-    title: "Second Blog Post",
-    date: "02/23/2023",
-    text: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
-    pictures: [
-      {
-        src:"images/website-images/axel-dunes.jpeg",
-        alt:"image of the the artist holding a boogie board among dunes"
-      },
-      {
-        src:"images/website-images/axel-dunes.jpeg",
-        alt:"image of the the artist holding a boogie board among dunes"
-      }
     ]
   },
 ]
