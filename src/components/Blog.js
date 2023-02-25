@@ -16,6 +16,7 @@ export default function Blog () {
         text={post.text}
         pictures={post.pictures}
         date={post.date}
+        hook={post.hook}
         />
       </Suspense>
     )
