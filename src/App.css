@@ -245,7 +245,7 @@ div .home .hero{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 2px #717070;
+    box-shadow: #636262 0px 4px 10px;
   }
 
   .grow:hover{
