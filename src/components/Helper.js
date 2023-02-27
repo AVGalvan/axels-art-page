@@ -139,6 +139,15 @@ export const finishedPieces = [
 
 export const sketches = [
   {
+    title: "Dragon Kid",
+    date: "2/11/23",
+    medium: "graphite",
+    description:`A kid in a dragon costume using hairspray and a lighter for "fire breath"`,
+    alt: `drawing of a child in a dragon costume jumping`,
+    src: "images/artwork-images/sketches/dragon-kid.jpeg"
+
+  },
+  {
     title: "Bust Sketch",
     date: "",
     medium: "",
@@ -253,6 +262,18 @@ export const sketches = [
 ]
 
 export const blogPostData = [
+  {
+    title: "The month of February",
+    date: `02/26/2023`,
+    hook: `A look back at what was worked on this month`,
+    text: `February was the month that I started documenting my work and practice sessions for drawing. I have been following the Drawabox course for most of my study time, and they recommend (“require” actually) that for every minute you spend doing exercises for the course, you spend the same amount of time drawing for fun. At first, I felt hesitant about this rule because I got it into my mind that “improving” only comes through focused study and practice, but they made a good point about needing to find your reason for drawing and seeing as how I don’t necessarily want to do this professionally right now, I went ahead and split my time evenly. So in between after drawing a bunch of boxes, I would draw whatever I thought might be fun. I still needed to get over the feeling of needing to draw “well” and do it for the sake of it, then I found a drawing of a blacksmith by Albert Urmanov and they had other pages detailing their brainstorming process. Urmanov’s prompts were: “Who”, “Intent”, “How”, “Gimmick”, and “Fear”. These were incredibly helpful in coming up with compelling ideas for sketches that told a story and happened to be very fun to actually work on. I didn’t work on my art as much as I expected I was going to (it was an incredibly busy month with life stuff) but, overall, I think this month was a pretty good start to the year. I particularly had fun with the "dragon kid" sketch.
+    `,
+    pictures:[
+      {src: "images/artwork-images/sketches/dragon-kid.jpeg",
+       alt: `drawing of a child in a dragon costume jumping`
+      }
+    ]
+  },
   {
     title: "Laying it all out",
     date: "02/23/2023",
